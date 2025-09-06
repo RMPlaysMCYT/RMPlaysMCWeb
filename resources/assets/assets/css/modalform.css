@@ -1,0 +1,120 @@
+.DownloadBut {
+    /* background: linear-gradient(90deg, #7f00ff, #e100ff); */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DownloadBut a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #585858;
+    box-shadow: 0 1px 4px black;
+}
+
+.DownloadBut a:hover {
+    transform: translate(0, -10px);
+    transition: 0.3s;
+}
+
+/* MODAL BOX */
+.modal{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77,77,77,0.7);
+    transition: all 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+.modalmenus {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.modalmenus h1{
+    font-size: xx-large;
+}
+
+.modalmenus a {
+    padding-top: 13px;
+    font-size: 30px;
+}
+.modoalclose {
+    font-size: 50px;
+}
+
+/* Modal On-Clicked */
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Modal Content */
+.modalcontentinside{
+    position: relative;
+    background: #fff;
+    width: 500px;
+    max-width: 90%;
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+
+.modalcontentinside ul li {
+    list-style: none;
+    align-items: center;
+    justify-self: center;
+}
+.modalcontentinside li {
+    padding: 5px;
+}
+
+.modalcontentinside a {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+
+/* DOWNLOAD BUTTON MANDATORY */
+
+.DLButton{
+    min-width: 200px;
+    display: inline-block;
+}
+
+.DLButtonPos{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.DLButtonPos li{
+    justify-content: center;
+}
+
+.ContentButton{
+    padding: 10px;
+    display: block;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    max-width: 100%;
+    text-align: center;
+}

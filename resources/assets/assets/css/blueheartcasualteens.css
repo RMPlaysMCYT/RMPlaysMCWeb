@@ -1,0 +1,84 @@
+
+.contentpagemain {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Your Code Start Here */
+.imagesback {
+    padding-top: 30px;
+}
+
+.imagesback div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* combines row-gap and column-gap */
+    justify-items: center; /* centers items horizontally within their grid cells */
+    padding-bottom: 30px;
+}
+
+.headdescr{
+    font-size: 30px;
+}
+
+.imagesback div img {
+    width: 100px;
+    height: auto;
+}
+.headmain h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-family: InterN;
+    text-align: left;
+    line-height: 0.8;
+}
+
+.bodydescr1 p {
+    padding: 5px;
+    font-family: InterN;
+    line-height: 0.9;
+    font-size: 20px;
+}
+
+.bodydescr1 ul li a {
+    font-family: InterN;
+    line-height: 0.8;
+}
+
+.bodydescr1 li {
+    list-style: none;
+}
+
+.features li a {
+    padding-left: 20px;
+}
+
+
+.bodydescr2{
+    padding-top: 5px;
+}
+
+.aaaa{
+    font-size: 20px;
+}
+
+.bodydescr11 p {
+    padding: 1px;
+}
+
+@media (max-width:768px)  {
+
+    .bodydescr1 p {
+        padding-top: 8px;
+        font-family: InterN;
+        line-height: 0.9;
+        font-size: 20px;
+    }
+    .bodydescr1 li {
+        padding-top: 5px;
+        list-style: none;
+    }
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contents</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSS PC -->
+        <link rel="stylesheet" href="main.css">
+        <!-- CSS Mobile -->
+    <link rel="stylesheet" href="assets/css/mainmobile.css">
+        <!--  -->
+        <link rel="stylesheet" href="assets/css/font.css">
+        <link rel="shortcut icon" href="assets/RM1.png" type="image/x-icon">
+    </head>
+    <style>
+        body {
+            background-color: rgb(236, 236, 236);
+        }
+               @font-face {font-family: Inter;src: url(assets/fonts/inter/Inter[opsz\,wght].ttf);}
+        @font-face {font-family: Inter-Tight;src: url(assets/fonts/inter/Inter-Italic[opsz\,wght].ttf);}
+        h1{
+            font-family: 'Inter';
+        }
+        p1 {
+            font-family: 'Inter';
+        }
+        p{
+            padding-bottom: 30px; 
+            font-family: 'Inter';
+        }
+        h2 {
+            font-family: 'Inter';
+        }
+    </style>
+        <!-- NAVIGATION -->
+    <header class="header-container">
+        <nav class="headerarea">
+             <a class="Logo" style="text-align: center;" href="/index.html">
+                <img src="assets/Logo0.svg" width="200px">
+            </a>
+            <ul class="menu-bars">
+                <li class="menusb txtbtn">
+                    <a href="/contents.html">Contents</a>
+                </li>
+                <li class="menusb txtbtn">
+                    <a href="/portfolio.html">Portfolio</a>
+                </li>
+                <li class="menusb txtbtn">
+                    <a href="/about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <mainbox><input type="search" placeholder="Search"></mainbox>
+        <body>
+            <div class="container-root">
+                <div class="hobbies-s">
+                    <div class="JournalHomie">
+                        <h1>Journal Writer</h1>
+                        <form action="/api/v1/journals" method="post">
+                            <label for="text-title">Journal Category</label>
+                            <input id="text-title" name="Title" placeholder="Enter title Homie!!">
+                            <br>
+                            <label for="journal-category">Journal Category</label>
+                            <select id="journal-category" name="Category">
+                                <option>Task</option>
+                                <option>Note</option>
+                                <option>Idea</option>
+                                <option>Goal</option>
+                                <option>Habit</option>
+                                <option>Mood</option>
+                                <option>Event</option>
+                                <option>Memory</option>
+                            </select>
+                            <br>
+                            <label for="Optionals">Optionals</label>
+                            <br>
+                            <textarea name="AdditionalENtry" name="entry" rows="5" cols="30"></textarea>
+                            <br>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class="More-Shht">
+                        <input type="range"> 1 to 100
+                        <br>
+                        <input type="color"> Choose your color bro/sis
+                        <br>
+                        <input type="file">
+                        <br>
+                        <input type="radio"> Mastercard
+                        <br>
+                        <input type="checkbox">I Agree Homie
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="Decision Master">
+                        <form action="/clothing/shirts" method="post">
+                            <input id="small" type="radio" name="size" value="s">
+                            <label for="small">Small</label>
+
+                            <input id="medium" type="radio" name="size" value="m">
+                            <label for="medium">Medium</label>
+
+                            <input id="large" type="radio" name="size" value="l">
+                            <label for="large">Large</label>
+
+                            <button type="submit">Submit Here</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </body>
+
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-container2">
+                    <!-- SOCIALS -->
+                    <div>
+                        <div style="text-align: center;"><img class="logos" src="assets/LOGO.png"></div>
+                    </div>
+                    <div class="socials-links">
+                        <ul class="quicklinks-no">
+                            <li><a href="https://facebook.com"><img src="assets/images/icons/logo-facebook.svg" width="30px"></a></li>
+                            <li><a href="https://twitter.com"><img src="assets/images/icons/logo-x.svg" width="30px"></a></li>
+                            <li><a href="https://instagram.com"><img src="assets/images/icons/logo-instagram.svg" width="30px"></a></li>
+                            <!-- <li><a href="http://www.linkedin.com"><img src="assets/images/icons/logo-linkedin.svg" width="30px"></a></li> -->
+                        </ul>
+                    </div>
+                    <div class="quicklinks">
+                        <ul class="quicklinks-no">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="contents.html">Contents</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+                <p>Made from Philippines<br>Any contents available on my website were made by your's truly and set in any kinds of licenses from open-source to proprietary<br>THIS WEBSITE IS NOT AFFILIATE WITH MOJANG STUDIOS</p>
+            </div>
+        </footer>
+        
+        <script src="" async defer></script>
+    </body>
+</html>

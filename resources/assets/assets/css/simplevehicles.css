@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Manrope;
+    src: url(.../assets/fonts/manrope/Manrope[wght].ttf);
+}
+
+.contentpagemain {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+details{
+    width: 80%;
+    margin: 0 10px 0 10px;
+    box-shadow: 0 .1rem .1rem -.5rem rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.SummaryDetails{
+    font-size: 24px;
+    font-family: Manrope;
+}
+
+summary{
+    padding: 1rem;
+    display: block;
+    background: #e0e0e0;
+    padding-left: 2.2rem;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
+
+summary:before {
+  content: '';
+  border-width: .4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: .2rem 50%;
+  transition: .25s transform ease;
+}
+
+/* THE MAGIC 🧙‍♀️ */
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+
+details > ul {
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+
+
+.simvehlists{
+    font-family: Manrope;
+}
+
+.headmain h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-family: InterN;
+    text-align: left;
+    line-height: 0.8;
+}
+
+.bodydescr1 p {
+    padding: 5px;
+    font-family: Manrope;
+    line-height: 0.9;
+    font-size: 20px;
+}
+
+.bodydescr1 ul li a {
+    font-family: InterN;
+    line-height: 0.5;
+}
+
+.bodydescr1 li {
+    padding:20px 0 0 0 ;
+    list-style: none;
+}
+
+.features li a {
+    padding-left: 20px;
+}
+
+
+.bodydescr2{
+    padding-top: 5px;
+}
+
+.aaaa{
+    font-size: 20px;
+}
+
+.bodydescr11 p {
+    padding: 1px;
+}
+
+.ImagesSnapshots{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px; /* combines row-gap and column-gap */
+    justify-items: center; /* centers items horizontally within their grid cells */
+    padding-bottom: 5px;
+}
+
+
+
+@media (max-width:768px)  {
+
+    .bodydescr1 p {
+        padding-top: 8px;
+        font-family: Manrope;
+        line-height: 0.9;
+        font-size: 20px;
+    }
+    .bodydescr1 li {
+        padding-top: 10px;
+        list-style: none;
+    }
+}

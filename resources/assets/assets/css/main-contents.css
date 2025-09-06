@@ -1,0 +1,97 @@
+.overallcontainer, .container-main {
+    animation: fadeIn 3s;
+}
+
+.ContainerTxt {
+    text-align: center;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.HeadPharagraph {
+    text-align: center;
+    align-content: center;
+}
+
+.container-main2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 4fr));
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 80px;
+    padding: 0 20px;
+}
+
+.Card0 {
+    padding: 5px;
+    justify-self: center;
+    border-radius: 20px;
+    background-color: rgb(248, 243, 243);
+    width: 90%;
+    height: 260px;
+    box-shadow: 3px 3px 3px #000000;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.Keyarts {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.Card0:hover {
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-10px);
+}
+
+[class^="CardTitleHe"] {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    transition: opacity 0.3s ease;
+    border-radius: 20px;
+}
+
+.Card0:hover [class^="CardTitleHe"] {
+    opacity: 1;
+}
+
+.overallcontainer {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container-main2 {
+        grid-template-columns: 1fr;
+    }
+    
+    .Card0 {
+        height: 200px;
+    }
+}
+
+.titlecont {
+    font-size: 30px;
+}

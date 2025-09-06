@@ -1,0 +1,12 @@
+.plane-addon-img {
+    width: 400px;
+    height: auto;
+}
+.showcase-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}

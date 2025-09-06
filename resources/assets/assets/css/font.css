@@ -1,0 +1,21 @@
+@font-face {
+    font-family: InterN;
+    src: url(/assets/fonts/inter/Inter[opsz\,wght].ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(/assets/fonts/inter/Inter[opsz\,wght].ttf);
+}
+
+
+@font-face {
+    font-family: EkmuktaBold;
+    src: url(/assets/fonts/EkMukta-Bold.ttf);
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(/assets/fonts/manrope/Manrope[wght].ttf);
+}
+

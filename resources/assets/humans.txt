@@ -1,0 +1,12 @@
+To prove that I made this website I created this special page where I created numerous stuff and make myself crazy on it hahaha
+
+Anyway this website has few to zero libraries as of now 
+
+Changelog:
+ - Adjustment of color on Buttons 
+
+
+What to do next:
+ - Improvement of the website
+ - Several Adjustments
+ - Adding new content pages (looking for numerous images for adding it here)
